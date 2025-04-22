@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #121517;
+}
+
+.logo {
+    font-size: 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(90deg, #237249 3.14%, #35C66B 87.2%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.tasdiqlash-btn {
+    width: 240px;
+    padding: 15px;
+    border: 2px solid #237249;
+    border-radius: 12px;
+    transition: 450ms ease;
+}
+
+.tasdiqlash-btn:hover {
+    background: linear-gradient(90deg, #237249 3.14%, #35C66B 87.2%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    -webkit-background-clip: padding-box, border-box;
+    box-shadow: 0 0 0 4px transparent;
+    transform: scale(1.1);
+    color: white;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20%;
+}
+
+.input {
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    transition: 450ms ease;
+}
+
+.input:focus {
+    background: linear-gradient(265.23deg, #237249 6.79%, #35C66B 97.2%);
+    border: 2px solid linear-gradient(265.23deg, #237249 6.79%, #35C66B 97.2%);
+    outline: none;
+    box-shadow: 2px 4px 8px #237249;
+    transform: translateY(-20px);
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.input::placeholder {
+    color: black;
+}
+
+.muvaffaqiyat {
+    color: red;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.orqaga {
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+    transition: 450ms ease;
+}
+
+.orqaga:hover {
+    color: white;
+    font-size: 18px;
+}
+
+.register-h2 {
+    background: linear-gradient(263.46deg, #237249 3.14%, #35C66B 87.2%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.register {
+    border: 2px solid rgb(9, 143, 9);
+    width: 1000px;
+    height: 400px;
+    margin: 20% auto;
+    transition: 450ms ease;
+}
+
+.register:hover {
+    box-shadow: 0px 4.01px 46.13px 0px inset #237249;
+}
